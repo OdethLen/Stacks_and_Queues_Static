@@ -55,8 +55,7 @@ namespace Stacks_and_Queues
             MessageBox.Show("The last element is: " + value );
         }
 
-      
-      
+       
 
         private void UpdateQueueStatus()
         {

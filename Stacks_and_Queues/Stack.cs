@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Stacks_and_Queues
-{
+{//a
 
     internal class Stack
     {
@@ -28,7 +28,7 @@ namespace Stacks_and_Queues
             {
                 MessageBox.Show("Stack is full.");
             }
-            elements[++top] = value; // Incrementamos el índice y asignamos el valor
+            elements[++top] = value; 
         }
 
 
@@ -46,7 +46,8 @@ namespace Stacks_and_Queues
         {
             if (IsEmpty())
             {
-                throw new InvalidOperationException("Stack is empty");
+                MessageBox.Show("Stack is empty");
+                return -1;
             }
             return elements[top];
         }

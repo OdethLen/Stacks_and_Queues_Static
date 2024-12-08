@@ -41,7 +41,7 @@ namespace Stacks_and_Queues
             if (IsEmpty())
             {
                 MessageBox.Show("Queue is empty");
-                return -1; // Devuelve un valor de error.
+                return -1; 
             }
 
             int value = elements[front];
@@ -59,7 +59,6 @@ namespace Stacks_and_Queues
             }
 
             return elements[front];
-
         }
 
 
@@ -68,7 +67,7 @@ namespace Stacks_and_Queues
             if (IsEmpty())
             {
                 MessageBox.Show("Queue is empty");
-                return -1; // Devuelve un valor de error.
+                return -1; 
             }
             return elements[rear];
         }
@@ -80,8 +79,6 @@ namespace Stacks_and_Queues
 
         public bool IsEmpty()
         {
-
-            //return count == 0;
 
             if (count == 0)
                 return true;
